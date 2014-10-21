@@ -13,12 +13,19 @@ shinyUI(pageWithSidebar(
     checkboxGroupInput("party", "Parties", choices=parties, selected=parties)
     ),
   mainPanel(
-    h3('Main Panel'),
-    verbatimTextOutput("oyear"),
-    h3('Parties'),
-    verbatimTextOutput("oparty"),
-    h3('Vote Summary'),
-    verbatimTextOutput("osummary")
+    p("This webpage presents a summary of the results from the Borough Council Elections held in the English borough of Brentwood
+      Essex.   Elections to the Council are held over a cycle of three years (there were no elections in 2013 as that year there
+      were County Council elections)."),
+    p("This page allows you to view the results borough wide for each year, and includes the ability to only report on 
+      particular political parties.   To obtain the results for a specific year, please select the year from the pull down
+      menu on the left.   By default, all parties that have run candidates are selected.   If you wish to see the results
+      for only particular parties, then unselect the parties you are not interested in."),
+    h3('Results Summary'),
+    p("You have selected the year ", textOutput("oyear")),
+    verbatimTextOutput("osummary2"),
+    p("This graph shows the trends for the parties over the years captured in the data.   Note that some parties may not have run
+       in all elections so will show up here as a dot rather than a line."),
+    plotOutput("plot")
     )
   )
 )
