@@ -1,6 +1,6 @@
 library(shiny)
 
-electiondata <- read.csv("https://raw.githubusercontent.com/thomasbridge74/BrentwoodElections/master/Brentwood%20Elections.csv", header=TRUE)
+electiondata <- read.csv("Brentwood Elections.csv", header=TRUE)
 years <- sort(unique(electiondata$Year))
 parties <- as.character(sort(unique(electiondata$Party)))
 
