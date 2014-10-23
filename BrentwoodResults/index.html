@@ -33,7 +33,7 @@
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
     <h1>Brentwood Elections</h1>
-    <h2></h2>
+    <h2>A Coursera Project</h2>
     <p>Thomas Bridge<br/>Politics and Data Nerd</p>
   </hgroup>
   <article></article>  
@@ -47,10 +47,13 @@
   </hgroup>
   <article data-timings="">
     <ol>
-<li>This should be boring</li>
-<li>Unless you like data.   And local politics.</li>
-<li>Running out of points.</li>
+<li>The borough of Brentwood is in Essex, England.   It sits just outside London, and is mostly bordered on the West
+side by the M25 ring road.</li>
+<li>Elections for the Borough Council are held three out of every four years (the fourth year is for Essex County Council)</li>
+<li>This Coursera project uses the election data to produce graphs of the election results.</li>
 </ol>
+
+<p><img src='brentwood_800.jpg' height='300' /></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -58,10 +61,41 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>The application.</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>I have compiled a set of data for the local election results held in 2010, 2011, 2012 and 2014 (the County Council elections where held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
+easily loaded.</p>
+
+<pre><code class="r">electiondata &lt;- read.csv(&quot;Brentwood Elections.csv&quot;, header=TRUE)
+</code></pre>
+
+<pre><code>## Warning in file(file, &quot;rt&quot;): cannot open file &#39;Brentwood Elections.csv&#39;:
+## No such file or directory
+</code></pre>
+
+<pre><code>## Error in file(file, &quot;rt&quot;): cannot open the connection
+</code></pre>
+
+<pre><code class="r">head(electiondata)
+</code></pre>
+
+<pre><code>##   Year            Ward               Name        Party Vote
+## 1 2012 Brentwood North        Ross Carter       LibDem  810
+## 2 2012 Brentwood North      Paul Faragher Conservative  439
+## 3 2012 Brentwood North  Kenneth Gulleford         UKIP  104
+## 4 2012 Brentwood North   Richard Millwood       Labour  170
+## 5 2012 Brentwood South       David Bishop Conservative  594
+## 6 2012 Brentwood South Juliette Morrissey       Labour  689
+</code></pre>
+
+<h3>Where to find the source code and data.</h3>
+
+<ol>
+<li> The application is hosted at <a href="https://thomasbridge.shinyapps.io/BrentwoodElections/">https://thomasbridge.shinyapps.io/BrentwoodElections/</a></li>
+<li> The github repository is hosted at <a href="https://thomasbridge.shinyapps.io/BrentwoodElections/">https://thomasbridge.shinyapps.io/BrentwoodElections/</a></li>
+</ol>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -111,7 +145,7 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='The application.'>
          2
       </a>
     </li>
