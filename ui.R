@@ -21,11 +21,15 @@ shinyUI(pageWithSidebar(
       menu on the left.   By default, all parties that have run candidates are selected.   If you wish to see the results
       for only particular parties, then unselect the parties you are not interested in."),
     h3('Results Summary'),
-    p("You have selected the year ", textOutput("oyear")),
-    verbatimTextOutput("osummary2"),
+    textOutput("oyear"),
+    h4("Table of results"),
+    tableOutput("osumtable"),
+    h4("Graph of results"),
     p("This graph shows the trends for the parties over the years captured in the data.   Note that some parties may not have run
-       in all elections so will show up here as a dot rather than a line."),
+       in all elections so may show up here as a dot rather than a line.   Colours are automatically allocated by R"),
+
     plotOutput("plot")
+
     )
   )
 )
