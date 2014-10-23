@@ -24,23 +24,22 @@ side by the M25 ring road.
 
 ## The application.
 
-I have compiled a set of data for the local election results held in 2010, 2011, 2012 and 2014 (the County Council elections where held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
+I have compiled a set of data for the local election results held in 2010, 2011, 2012 and 2014 (the County Council elections were held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
 easily loaded.
 ```{r loaddata}
-electiondata <- read.csv("Brentwood Elections.csv", header=TRUE)
+electiondata <- read.csv("BrentwoodElections.csv", header=TRUE)
 head(electiondata)
 ```
+This shows each ward, the year of the election, the candidate, party and total votes cast.
+---
 
-### Where to find the source code and data.
+## Where to find the source code and data.
 1.  The application is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
 2.  The github repository is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
 
----
+## Summarizing the data
 
-## Slide 3
-
-You can do it using the party
-
+As we are focusing on overall party performance, the first thing is to summarize the data.
 ---
 ## Slide 4
 
@@ -48,10 +47,9 @@ Or by year.
 
 ---
 
-## Maybe more
-
-If I have time.
-
+### Where to find the source code and data.
+1.  The application is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
+2.  The github repository is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
 
 
 
