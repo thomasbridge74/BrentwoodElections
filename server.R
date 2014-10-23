@@ -24,16 +24,18 @@ summarize_data <- function(year, party) {
 }
 
 create_plot <- function(party) {
-  p <- qplot(Year, percent, data=yearly_vote[yearly_vote$Party %in% party, ], group=Party, colour=Party) + geom_line()
+  p <- qplot(Year, percent, data=yearly_vote[yearly_vote$Party %in% party, ], group=Party, colour=Party, 
+             main="Trend by party", ylab = "Percentage of total vote") + geom_line()
   print(p)
 }
 
 shinyServer(
   function(input, output) {
-    output$oyear <- renderText({input$year})
+    output$oyear <- renderText({paste0("You have chosen ", input$year)})
     output$oparty <- renderPrint({input$party})
 #    output$osummary <- renderPrint({summarize_data(input$year, input$party)}) 
-    output$osummary2 <- renderPrint({yearly_summary(input$year, input$party)})
+#    output$osummary2 <- renderPrint({yearly_summary(input$year, input$party)})
+    output$osumtable <- renderTable({yearly_summary(input$year, input$party)}, include.rownames=FALSE)
     output$plot <- renderPlot({create_plot(input$party)})
   }
 )
