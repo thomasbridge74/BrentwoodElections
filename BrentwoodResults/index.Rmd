@@ -25,31 +25,75 @@ side by the M25 ring road.
 ## The application.
 
 I have compiled a set of data for the local election results held in 2010, 2011, 2012 and 2014 (the County Council elections were held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
-easily loaded.
+easily loaded. The data shows each ward, the year of the election, the candidates, party and total votes cast.
+
 ```{r loaddata}
 electiondata <- read.csv("BrentwoodElections.csv", header=TRUE)
 head(electiondata)
 ```
-This shows each ward, the year of the election, the candidate, party and total votes cast.
+
 ---
 
 ## Where to find the source code and data.
+
 1.  The application is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
 2.  The github repository is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
 
 ## Summarizing the data
 
-As we are focusing on overall party performance, the first thing is to summarize the data.
----
-## Slide 4
+The application offers two main features.
 
-Or by year.
+1. The presentation of the results for a selected year.
+2. A graph showing the trends for each party over the years contained within the data set.
 
----
+The code makes no assumptions about the contents of the data - meaning adding results for different years, wards and 
+parties is trivial.
 
-### Where to find the source code and data.
-1.  The application is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
-2.  The github repository is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
+There are two functions that are used in the application, yearly_summary() and create_plot().  
+
+```{r functions, echo=FALSE}
+library(plyr)
+library(ggplot2)
+yearly_vote <- ddply(electiondata[,c("Year", "Party", "Vote")], ~Party + Year, summarize, votes=sum(Vote))
+yearly_vote$percent = 100*unsplit(lapply(split(yearly_vote, yearly_vote$Year), function(x) { 
+   x$votes/sum(x$votes)}), yearly_vote$Year)
+yearly_vote <- yearly_vote[with(yearly_vote, order(Year, -percent)), ]
+
+yearly_summary <- function(year, party) {
+  year_vote <- yearly_vote[yearly_vote$Year == year, ]
+  year_vote[year_vote$Party %in% party, ]
+}
+
+create_plot <- function(party) {
+  p <- qplot(Year, percent, data=yearly_vote[yearly_vote$Party %in% party, ], group=Party, colour=Party, 
+             main="Trend by party", ylab = "Percentage of total vote") + geom_line()
+  print(p)
+}
+```
+
+
+--- &twocol
+
+## Features.
+
+```{r parties}
+parties <- c("Conservative", "LibDem", "UKIP", "Labour")
+```
+
+*** {name: left}
+
+```{r tabledemo}
+yearly_summary("2012", parties)
+```
+
+
+*** {name: right}
+
+```{r plotdemo, fig.height=5}
+create_plot(parties)
+```
+
+
 
 
 

@@ -24,23 +24,12 @@ side by the M25 ring road.
 
 ## The application.
 
-I have compiled a set of data for the local election results held in 2010, 2011, 2012 and 2014 (the County Council elections where held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
-easily loaded.
+I have compiled a set of data for the local election results held in 2010, 2011, 2012 and 2014 (the County Council elections were held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
+easily loaded. The data shows each ward, the year of the election, the candidates, party and total votes cast.
+
 
 ```r
-electiondata <- read.csv("Brentwood Elections.csv", header=TRUE)
-```
-
-```
-## Warning in file(file, "rt"): cannot open file 'Brentwood Elections.csv':
-## No such file or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
-```r
+electiondata <- read.csv("BrentwoodElections.csv", header=TRUE)
 head(electiondata)
 ```
 
@@ -54,26 +43,62 @@ head(electiondata)
 ## 6 2012 Brentwood South Juliette Morrissey       Labour  689
 ```
 
-### Where to find the source code and data.
+---
+
+## Where to find the source code and data.
+
 1.  The application is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
 2.  The github repository is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
 
----
+## Summarizing the data
 
-## Slide 3
+The application offers two main features.
 
-You can do it using the party
+1. The presentation of the results for a selected year.
+2. A graph showing the trends for each party over the years contained within the data set.
 
----
-## Slide 4
+The code makes no assumptions about the contents of the data - meaning adding results for different years, wards and 
+parties is trivial.
 
-Or by year.
+There are two functions that are used in the application, yearly_summary() and create_plot().  
 
----
 
-## Maybe more
 
-If I have time.
+
+--- &twocol
+
+## Features.
+
+
+```r
+parties <- c("Conservative", "LibDem", "UKIP", "Labour")
+```
+
+*** {name: left}
+
+
+```r
+yearly_summary("2012", parties)
+```
+
+```
+##           Party Year votes   percent
+## 4  Conservative 2012  8127 46.701529
+## 21       LibDem 2012  4869 27.979543
+## 17       Labour 2012  2558 14.699460
+## 26         UKIP 2012  1050  6.033789
+```
+
+
+*** {name: right}
+
+
+```r
+create_plot(parties)
+```
+
+![plot of chunk plotdemo](assets/fig/plotdemo-1.png) 
+
 
 
 
