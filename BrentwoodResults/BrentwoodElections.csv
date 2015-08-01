@@ -1,197 +1,1 @@
-Year,Ward,Name,Party,Vote
-2012,Brentwood North,Ross Carter,LibDem,810
-2012,Brentwood North,Paul Faragher,Conservative,439
-2012,Brentwood North,Kenneth Gulleford,UKIP,104
-2012,Brentwood North,Richard Millwood,Labour,170
-2012,Brentwood South,David Bishop,Conservative,594
-2012,Brentwood South,Juliette Morrissey,Labour,689
-2012,Brentwood South,Wilfred Southgate,UKIP,146
-2012,Brentwood South,George Tyrell,LibDem,149
-2012,Brentwood West,Gareth Barrett,Labour,148
-2012,Brentwood West,Karen Chilvers,LibDem,1003
-2012,Brentwood West,Joan Holmes,Conservative,667
-2012,Brizes & Doddinghurst,Charles Green,LibDem,262
-2012,Brizes & Doddinghurst,Yvonne Macguire,UKIP,318
-2012,Brizes & Doddinghurst,Roger McCheyne,Conservative,806
-2012,Brizes & Doddinghurst,Michele Wigram,Labour,131
-2012,"Herongate, Ingrave & West Horndon",Simon Beckett,LibDem,84
-2012,"Herongate, Ingrave & West Horndon",Sheila Murphy,Conservative,696
-2012,"Herongate, Ingrave & West Horndon",Peter Norris,Labour,140
-2012,Hutton Central,John Kerslake,Conservative,669
-2012,Hutton Central,Susan Kortlandt,Labour,145
-2012,Hutton Central,Linda Price,LibDem,104
-2012,Hutton North,Peter Bowyer,LibDem,112
-2012,Hutton North,Peter Mayo,Labour,192
-2012,Hutton North,Louise McKinlay,Conservative,600
-2012,Hutton South,Deborah Foster,Labour,96
-2012,Hutton South,Mark Reed,Conservative,557
-2012,Hutton South,Christine Seymour,LibDem,68
-2012,Hutton South,David Watt,UKIP,178
-2012,"Ingatestone, Fyerning & Mountnessing",Colin Brown,LibDem,141
-2012,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,304
-2012,"Ingatestone, Fyerning & Mountnessing",Anthony Sleep,Conservative,870
-2012,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,213
-2012,Pilgrims Hatch,David Kendall,LibDem,920
-2012,Pilgrims Hatch,Stephen Saunders,Conservative,328
-2012,Pilgrims Hatch,Yvonne Waterhouse,Labour,255
-2012,Shenfield,Tim Barrett,Labour,116
-2012,Shenfield,Margaret Brehaut,Conservative,611
-2012,Shenfield,Graeme Clark,LibDem,853
-2012,Tipps Cross,John Hopkins,Labour,44
-2012,Tipps Cross,Roger Keeble,Independent,701
-2012,Tipps Cross,June Spencer,LibDem,19
-2012,Tipps Cross,Susannah Wheeler,Conservative,493
-2012,Warley,Kim Burelli,English Democrats,97
-2012,Warley,Trevor Ellis,LibDem,344
-2012,Warley,Stephen Mayo,Labour,219
-2012,Warley,David Tee,Conservative,797
-2014,Brentwood North,Mark Allen,UKIP,381
-2014,Brentwood North,Ian Edmonds,Brentwood First,166
-2014,Brentwood North,Neil McAree,Labour,154
-2014,Brentwood North,Phil Mynott,LibDem,771
-2014,Brentwood North,Andrew Wiles,Conservative,360
-2014,Brentwood South,Gareth Barrett,Labour,566
-2014,Brentwood South,David Bishop,Conservative - Former,444
-2014,Brentwood South,Gail Chatfield,LibDem,155
-2014,Brentwood South,Wilfred Southgate,UKIP,487
-2014,Brentwood West,Paul Barrell,Conservative,562
-2014,Brentwood West,Deborah Foster,Labour,270
-2014,Brentwood West,John Newberry,LibDem,624
-2014,Brentwood West,Peter Sceats,UKIP,415
-2014,Brizes & Doddinghurst,Patricia Dedman,Labour,147
-2014,Brizes & Doddinghurst,Trevor Ellis,LibDem,165
-2014,Brizes & Doddinghurst,Yvonne Macguire,UKIP,726
-2014,Brizes & Doddinghurst,Keith Parker,Conservative,864
-2014,"Herongate, Ingrave & West Horndon",Damien Biggs,Socialist Labour,35
-2014,"Herongate, Ingrave & West Horndon",Linda Golding,Conservative,517
-2014,"Herongate, Ingrave & West Horndon",Peter Norris,Labour,66
-2014,"Herongate, Ingrave & West Horndon",Jo Squirrel,Brentwood First,646
-2014,"Herongate, Ingrave & West Horndon",Cyril Young,LibDem,54
-2014,Hutton Central,Wendy Antoniou,LibDem,118
-2014,Hutton Central,Paul Faragher,Conservative,675
-2014,Hutton Central,Jan Gearon-Simm,Independent,190
-2014,Hutton Central,David Smith,Labour,119
-2014,Hutton East,Andrea Bowers,LibDem,332
-2014,Hutton East,Liam Preston,Labour,142
-2014,Hutton East,Olivia Sanders,Conservative,564
-2014,Hutton South,Richard Brown,Brentwood First,228
-2014,Hutton South,David Burn,Labour,112
-2014,Hutton South,Roger Hirst,Conservative,691
-2014,Hutton South,David Watt,UKIP,262
-2014,"Ingatestone, Fyerning & Mountnessing",Jon Cloke,Conservative,977
-2014,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,595
-2014,"Ingatestone, Fyerning & Mountnessing",Anne Long,LibDem,197
-2014,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,295
-2014,Pilgrims Hatch,Barry Aspinell,LibDem,866
-2014,Pilgrims Hatch,Thomas Bridge,Conservative,298
-2014,Pilgrims Hatch,Bryan Finegan,UKIP,534
-2014,Pilgrims Hatch,Richard Margrave,Labour,120
-2014,Shenfield,Liz Cohen,LibDem,892
-2014,Shenfield,Mary Deacon,UKIP,282
-2014,Shenfield,Richard Millwood,Labour,81
-2014,Shenfield,Louise Rowlands,Conservative,783
-2014,South Weald,Tim Barrett,Labour,36
-2014,South Weald,Nigel Clarke,Brentwood First,216
-2014,South Weald,Ann Coe,Conservative,302
-2014,South Weald,Clive Pulman,UKIP,127
-2014,Warley,Jill Hubbard,LibDem,880
-2014,Warley,Susan Kortlandt,Labour,177
-2014,Warley,Jan Pound,Conservative,621
-2014,Warley,Wendy Warwick,UKIP,314
-2011,Brentwood North,Mamtaz Beekoo,Labour,281
-2011,Brentwood North,Kenneth Gulleford,UKIP,151
-2011,Brentwood North,James Sapwell,LibDem,859
-2011,Brentwood North,James Tumbridge,Conservative,719
-2011,Brentwood South,David Bishop,Conservative,726
-2011,Brentwood South,Trevor Ellis,LibDem,306
-2011,Brentwood South,Michael Le-Surf,Labour,850
-2011,Brentwood West,Karen Chilvers,LibDem,948
-2011,Brentwood West,Juliette Morrissey,Labour,221
-2011,Brentwood West,William Russell,Conservative,958
-2011,Brizes & Doddinghurst,Nina Cutbush,LibDem,338
-2011,Brizes & Doddinghurst,Yvonne Macguire,UKIP,308
-2011,Brizes & Doddinghurst,Ann Naylor,Conservative,1213
-2011,Brizes & Doddinghurst,Yvonne Waterhouse,Labour,206
-2011,"Herongate, Ingrave & West Horndon",Gareth Barrett,Labour,167
-2011,"Herongate, Ingrave & West Horndon",James Gulleford,UKIP,177
-2011,"Herongate, Ingrave & West Horndon",Gordon Maclellan,Conservative,862
-2011,"Herongate, Ingrave & West Horndon",Linda Price,LibDem,142
-2011,Hutton East,Stuart Gulleford,UKIP,190
-2011,Hutton East,Christopher Hossack,Conservative,663
-2011,Hutton East,John Pickard,Labour,205
-2011,Hutton East,June Spencer,LibDem,159
-2011,Hutton North,Janice Gearon-Simm,Green,49
-2011,Hutton North,Russell Quirk,Conservative,636
-2011,Hutton North,Graham Soames,Independent,545
-2011,Hutton North,Stephen Tyrell,LibDem,141
-2011,Hutton North,Timothy Waterhouse,Labour,150
-2011,"Ingatestone, Fyerning & Mountnessing",Colin Brown,LibDem,328
-2011,"Ingatestone, Fyerning & Mountnessing",Patricia Dedman,Labour,360
-2011,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,358
-2011,"Ingatestone, Fyerning & Mountnessing",Noelle Hones,Conservative,1311
-2011,"Ingatestone, Fyerning & Mountnessing",Kristiana Papi,LibDem,336
-2011,"Ingatestone, Fyerning & Mountnessing",Keith Sparling,Conservative,1223
-2011,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,375
-2011,Pilgrims Hatch,Victoria Davis,LibDem,1091
-2011,Pilgrims Hatch,John Kerslake,Conservative,565
-2011,Pilgrims Hatch,David Smith,Labour,253
-2011,Shenfield,Philip Baker,Conservative,1286
-2011,Shenfield,Tim Barrett,Labour,184
-2011,Shenfield,Malcolm Featherston,LibDem,609
-2011,Shenfield,David Watt,UKIP,191
-2011,Tipps Cross,Roberta Hall,LibDem,261
-2011,Tipps Cross,Madeline Henwood,Conservative,1018
-2011,Tipps Cross,Michele Wigram,Labour,176
-2011,Warley,Kim Burelli,English Democrats,110
-2011,Warley,William Lloyd,Conservative,978
-2011,Warley,Peter Mayo,Labour,259
-2011,Warley,Cyril Young,LibDem,782
-2010,Brentwood North,Phil Mynott,LibDem,1527
-2010,Brentwood North,Russell Quirk,Conservative,1327
-2010,Brentwood North,Mamtaz Beekoo,Labour,271
-2010,Brentwood South,Gareth Barrett,Labour,544
-2010,Brentwood South,Trevor Ellis,LibDem,846
-2010,Brentwood South,Cheralyn Lewis,Conservative,1221
-2010,Brentwood South,Wilfred Southgate,UKIP,199
-2010,Brentwood South,Graeme Syed,Green,63
-2010,Brentwood West,Nigel Clarke,LibDem,1578
-2010,Brentwood West,Peter Mayo,Labour,273
-2010,Brentwood West,Karen Sheehan,Conservative,1578
-2010,Brizes & Doddinghurst,Richard Davies,LibDem,974
-2010,Brizes & Doddinghurst,Yvonne Macguire,UKIP,362
-2010,Brizes & Doddinghurst,Keith Parker,Conservative,1790
-2010,Brizes & Doddinghurst,Barrie Wickerson,Labour,209
-2010,"Herongate, Ingrave & West Horndon",Linda Golding,Conservative,1403
-2010,"Herongate, Ingrave & West Horndon",Robert Gow,Labour,175
-2010,"Herongate, Ingrave & West Horndon",Linda Price,LibDem,609
-2010,Hutton Central,Alan Braid,Conservative,1409
-2010,Hutton Central,David Burn,Labour,175
-2010,Hutton Central,June Spencer,LibDem,507
-2010,Hutton East,Claire Cornell,Conservative,1057
-2010,Hutton East,Cornelius Maxey,Labour,221
-2010,Hutton East,Susan Palmer,LibDem,694
-2010,Hutton South,Roger Hirst,Conservative,1495
-2010,Hutton South,Sheila Maxey,Labour,184
-2010,Hutton South,Christine Seymour,LibDem,445
-2010,Hutton South,David Watt,UKIP,164
-2010,"Ingatestone, Fyerning & Mountnessing",Richard Harrison,Conservative,1894
-2010,"Ingatestone, Fyerning & Mountnessing",Jacqueline Anslow,LibDem,971
-2010,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,372
-2010,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,308
-2010,Pilgrims Hatch,Barry Aspinell,LibDem,1663
-2010,Pilgrims Hatch,Adrian Coolbergen,Conservative,994
-2010,Pilgrims Hatch,Victoria Davis,LibDem,1237
-2010,Pilgrims Hatch,Kenneth Gulleford,UKIP,330
-2010,Pilgrims Hatch,John Kerslake,Conservative,766
-2010,Pilgrims Hatch,Susan Kortlandt,Labour,207
-2010,Pilgrims Hatch,Michele Wigram,Labour,196
-2010,Shenfield,Malcolm Featherston,LibDem,1175
-2010,Shenfield,Lionel Lee,Conservative,1937
-2010,Shenfield,Juliette Morrissey,Labour,216
-2010,South Weald,Tim Barrett,Labour,58
-2010,South Weald,Ann Coe,Conservative,602
-2010,South Weald,Nina Cutbush,LibDem,378
-2010,Warley,Kim Burelli,English Democrats,144
-2010,Warley,Richard Margrave,Labour,291
-2010,Warley,Jan Pound,Conservative,1512
-2010,Warley,Cyril Young,LibDem,1267
+Year,Ward,Name,Party,Vote2012,Brentwood North,Ross Carter,LibDem,8102012,Brentwood North,Paul Faragher,Conservative,4392012,Brentwood North,Kenneth Gulleford,UKIP,1042012,Brentwood North,Richard Millwood,Labour,1702012,Brentwood South,David Bishop,Conservative,5942012,Brentwood South,Juliette Morrissey,Labour,6892012,Brentwood South,Wilfred Southgate,UKIP,1462012,Brentwood South,George Tyrell,LibDem,1492012,Brentwood West,Gareth Barrett,Labour,1482012,Brentwood West,Karen Chilvers,LibDem,10032012,Brentwood West,Joan Holmes,Conservative,6672012,Brizes & Doddinghurst,Charles Green,LibDem,2622012,Brizes & Doddinghurst,Yvonne Macguire,UKIP,3182012,Brizes & Doddinghurst,Roger McCheyne,Conservative,8062012,Brizes & Doddinghurst,Michele Wigram,Labour,1312012,"Herongate, Ingrave & West Horndon",Simon Beckett,LibDem,842012,"Herongate, Ingrave & West Horndon",Sheila Murphy,Conservative,6962012,"Herongate, Ingrave & West Horndon",Peter Norris,Labour,1402012,Hutton Central,John Kerslake,Conservative,6692012,Hutton Central,Susan Kortlandt,Labour,1452012,Hutton Central,Linda Price,LibDem,1042012,Hutton North,Peter Bowyer,LibDem,1122012,Hutton North,Peter Mayo,Labour,1922012,Hutton North,Louise McKinlay,Conservative,6002012,Hutton South,Deborah Foster,Labour,962012,Hutton South,Mark Reed,Conservative,5572012,Hutton South,Christine Seymour,LibDem,682012,Hutton South,David Watt,UKIP,1782012,"Ingatestone, Fyerning & Mountnessing",Colin Brown,LibDem,1412012,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,3042012,"Ingatestone, Fyerning & Mountnessing",Anthony Sleep,Conservative,8702012,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,2132012,Pilgrims Hatch,David Kendall,LibDem,9202012,Pilgrims Hatch,Stephen Saunders,Conservative,3282012,Pilgrims Hatch,Yvonne Waterhouse,Labour,2552012,Shenfield,Tim Barrett,Labour,1162012,Shenfield,Margaret Brehaut,Conservative,6112012,Shenfield,Graeme Clark,LibDem,8532012,Tipps Cross,John Hopkins,Labour,442012,Tipps Cross,Roger Keeble,Independent,7012012,Tipps Cross,June Spencer,LibDem,192012,Tipps Cross,Susannah Wheeler,Conservative,4932012,Warley,Kim Burelli,English Democrats,972012,Warley,Trevor Ellis,LibDem,3442012,Warley,Stephen Mayo,Labour,2192012,Warley,David Tee,Conservative,7972014,Brentwood North,Mark Allen,UKIP,3812014,Brentwood North,Ian Edmonds,Brentwood First,1662014,Brentwood North,Neil McAree,Labour,1542014,Brentwood North,Phil Mynott,LibDem,7712014,Brentwood North,Andrew Wiles,Conservative,3602014,Brentwood South,Gareth Barrett,Labour,5662014,Brentwood South,David Bishop,Conservative - Former,4442014,Brentwood South,Gail Chatfield,LibDem,1552014,Brentwood South,Wilfred Southgate,UKIP,4872014,Brentwood West,Paul Barrell,Conservative,5622014,Brentwood West,Deborah Foster,Labour,2702014,Brentwood West,John Newberry,LibDem,6242014,Brentwood West,Peter Sceats,UKIP,4152014,Brizes & Doddinghurst,Patricia Dedman,Labour,1472014,Brizes & Doddinghurst,Trevor Ellis,LibDem,1652014,Brizes & Doddinghurst,Yvonne Macguire,UKIP,7262014,Brizes & Doddinghurst,Keith Parker,Conservative,8642014,"Herongate, Ingrave & West Horndon",Damien Biggs,Socialist Labour,352014,"Herongate, Ingrave & West Horndon",Linda Golding,Conservative,5172014,"Herongate, Ingrave & West Horndon",Peter Norris,Labour,662014,"Herongate, Ingrave & West Horndon",Jo Squirrel,Brentwood First,6462014,"Herongate, Ingrave & West Horndon",Cyril Young,LibDem,542014,Hutton Central,Wendy Antoniou,LibDem,1182014,Hutton Central,Paul Faragher,Conservative,6752014,Hutton Central,Jan Gearon-Simm,Independent,1902014,Hutton Central,David Smith,Labour,1192014,Hutton East,Andrea Bowers,LibDem,3322014,Hutton East,Liam Preston,Labour,1422014,Hutton East,Olivia Sanders,Conservative,5642014,Hutton South,Richard Brown,Brentwood First,2282014,Hutton South,David Burn,Labour,1122014,Hutton South,Roger Hirst,Conservative,6912014,Hutton South,David Watt,UKIP,2622014,"Ingatestone, Fyerning & Mountnessing",Jon Cloke,Conservative,9772014,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,5952014,"Ingatestone, Fyerning & Mountnessing",Anne Long,LibDem,1972014,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,2952014,Pilgrims Hatch,Barry Aspinell,LibDem,8662014,Pilgrims Hatch,Thomas Bridge,Conservative,2982014,Pilgrims Hatch,Bryan Finegan,UKIP,5342014,Pilgrims Hatch,Richard Margrave,Labour,1202014,Shenfield,Liz Cohen,LibDem,8922014,Shenfield,Mary Deacon,UKIP,2822014,Shenfield,Richard Millwood,Labour,812014,Shenfield,Louise Rowlands,Conservative,7832014,South Weald,Tim Barrett,Labour,362014,South Weald,Nigel Clarke,Brentwood First,2162014,South Weald,Ann Coe,Conservative,3022014,South Weald,Clive Pulman,UKIP,1272014,Warley,Jill Hubbard,LibDem,8802014,Warley,Susan Kortlandt,Labour,1772014,Warley,Jan Pound,Conservative,6212014,Warley,Wendy Warwick,UKIP,3142011,Brentwood North,Mamtaz Beekoo,Labour,2812011,Brentwood North,Kenneth Gulleford,UKIP,1512011,Brentwood North,James Sapwell,LibDem,8592011,Brentwood North,James Tumbridge,Conservative,7192011,Brentwood South,David Bishop,Conservative,7262011,Brentwood South,Trevor Ellis,LibDem,3062011,Brentwood South,Michael Le-Surf,Labour,8502011,Brentwood West,Karen Chilvers,LibDem,9482011,Brentwood West,Juliette Morrissey,Labour,2212011,Brentwood West,William Russell,Conservative,9582011,Brizes & Doddinghurst,Nina Cutbush,LibDem,3382011,Brizes & Doddinghurst,Yvonne Macguire,UKIP,3082011,Brizes & Doddinghurst,Ann Naylor,Conservative,12132011,Brizes & Doddinghurst,Yvonne Waterhouse,Labour,2062011,"Herongate, Ingrave & West Horndon",Gareth Barrett,Labour,1672011,"Herongate, Ingrave & West Horndon",James Gulleford,UKIP,1772011,"Herongate, Ingrave & West Horndon",Gordon Maclellan,Conservative,8622011,"Herongate, Ingrave & West Horndon",Linda Price,LibDem,1422011,Hutton East,Stuart Gulleford,UKIP,1902011,Hutton East,Christopher Hossack,Conservative,6632011,Hutton East,John Pickard,Labour,2052011,Hutton East,June Spencer,LibDem,1592011,Hutton North,Janice Gearon-Simm,Green,492011,Hutton North,Russell Quirk,Conservative,6362011,Hutton North,Graham Soames,Independent,5452011,Hutton North,Stephen Tyrell,LibDem,1412011,Hutton North,Timothy Waterhouse,Labour,1502011,"Ingatestone, Fyerning & Mountnessing",Colin Brown,LibDem,3282011,"Ingatestone, Fyerning & Mountnessing",Patricia Dedman,Labour,3602011,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,3582011,"Ingatestone, Fyerning & Mountnessing",Noelle Hones,Conservative,13112011,"Ingatestone, Fyerning & Mountnessing",Kristiana Papi,LibDem,3362011,"Ingatestone, Fyerning & Mountnessing",Keith Sparling,Conservative,12232011,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,3752011,Pilgrims Hatch,Victoria Davis,LibDem,10912011,Pilgrims Hatch,John Kerslake,Conservative,5652011,Pilgrims Hatch,David Smith,Labour,2532011,Shenfield,Philip Baker,Conservative,12862011,Shenfield,Tim Barrett,Labour,1842011,Shenfield,Malcolm Featherston,LibDem,6092011,Shenfield,David Watt,UKIP,1912011,Tipps Cross,Roberta Hall,LibDem,2612011,Tipps Cross,Madeline Henwood,Conservative,10182011,Tipps Cross,Michele Wigram,Labour,1762011,Warley,Kim Burelli,English Democrats,1102011,Warley,William Lloyd,Conservative,9782011,Warley,Peter Mayo,Labour,2592011,Warley,Cyril Young,LibDem,7822010,Brentwood North,Phil Mynott,LibDem,15272010,Brentwood North,Russell Quirk,Conservative,13272010,Brentwood North,Mamtaz Beekoo,Labour,2712010,Brentwood South,Gareth Barrett,Labour,5442010,Brentwood South,Trevor Ellis,LibDem,8462010,Brentwood South,Cheralyn Lewis,Conservative,12212010,Brentwood South,Wilfred Southgate,UKIP,1992010,Brentwood South,Graeme Syed,Green,632010,Brentwood West,Nigel Clarke,LibDem,15782010,Brentwood West,Peter Mayo,Labour,2732010,Brentwood West,Karen Sheehan,Conservative,15782010,Brizes & Doddinghurst,Richard Davies,LibDem,9742010,Brizes & Doddinghurst,Yvonne Macguire,UKIP,3622010,Brizes & Doddinghurst,Keith Parker,Conservative,17902010,Brizes & Doddinghurst,Barrie Wickerson,Labour,2092010,"Herongate, Ingrave & West Horndon",Linda Golding,Conservative,14032010,"Herongate, Ingrave & West Horndon",Robert Gow,Labour,1752010,"Herongate, Ingrave & West Horndon",Linda Price,LibDem,6092010,Hutton Central,Alan Braid,Conservative,14092010,Hutton Central,David Burn,Labour,1752010,Hutton Central,June Spencer,LibDem,5072010,Hutton East,Claire Cornell,Conservative,10572010,Hutton East,Cornelius Maxey,Labour,2212010,Hutton East,Susan Palmer,LibDem,6942010,Hutton South,Roger Hirst,Conservative,14952010,Hutton South,Sheila Maxey,Labour,1842010,Hutton South,Christine Seymour,LibDem,4452010,Hutton South,David Watt,UKIP,1642010,"Ingatestone, Fyerning & Mountnessing",Richard Harrison,Conservative,18942010,"Ingatestone, Fyerning & Mountnessing",Jacqueline Anslow,LibDem,9712010,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,3722010,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,3082010,Pilgrims Hatch,Barry Aspinell,LibDem,16632010,Pilgrims Hatch,Adrian Coolbergen,Conservative,9942010,Pilgrims Hatch,Victoria Davis,LibDem,12372010,Pilgrims Hatch,Kenneth Gulleford,UKIP,3302010,Pilgrims Hatch,John Kerslake,Conservative,7662010,Pilgrims Hatch,Susan Kortlandt,Labour,2072010,Pilgrims Hatch,Michele Wigram,Labour,1962010,Shenfield,Malcolm Featherston,LibDem,11752010,Shenfield,Lionel Lee,Conservative,19372010,Shenfield,Juliette Morrissey,Labour,2162010,South Weald,Tim Barrett,Labour,582010,South Weald,Ann Coe,Conservative,6022010,South Weald,Nina Cutbush,LibDem,3782010,Warley,Kim Burelli,English Democrats,1442010,Warley,Richard Margrave,Labour,2912010,Warley,Jan Pound,Conservative,15122010,Warley,Cyril Young,LibDem,12672015,Brentwood North,Melissa Slade,Conservative,11932015,Brentwood North,Gavin Dandridge,LibDem,11622015,Brentwood North,Ray Binsted,UKIP,5492015,Brentwood North,Helen Witty,Labour,4412015,Brentwood North,Ian Edmonds,Independent,1282015,Brentwood South,Andrew Wiles,Conservative,11922015,Brentwood South,Tim Barrett,Labour,8632015,Brentwood South,Wilfred Southgate,UKIP,5702015,Brentwood South,Cyril Young,LibDem,2712015,Brentwood West,William Russell,Conservative,19452015,Brentwood West,Alison Fulcher,LibDem,10832015,Brentwood West,Deborah Foster,Labour,5642015,Brizes & Doddinghurst,Clifford Poppy,Conservative,19222015,Brizes & Doddinghurst,Peter Sceats,UKIP,8612015,Brizes & Doddinghurst,Trevor Ellis,LibDem,3072015,Brizes & Doddinghurst,Patricia Dedman,Labour,2982015,"Herongate, Ingrave & West Horndon",Sheila Murphy,Conservative,12512015,"Herongate, Ingrave & West Horndon",Alan Watt,UKIP,4572015,"Herongate, Ingrave & West Horndon",Christopher Price,Independent,3112015,"Herongate, Ingrave & West Horndon",Peter Norris,Labour,1972015,Hutton East,Christopher Hossack,Conservative,11512015,Hutton East,David Watt,UKIP,3712015,Hutton East,David Smith,Labour,2882015,Hutton East,Linda Price,LibDem,1802015,Hutton North,William Trump,Conservative,12422015,Hutton North,Graham Soames,Independent,5192015,Hutton North,Philip Holland,Labour,2962015,Hutton North,Beryl Ellis,LibDem,1732015,"Ingatestone, Fyerning & Mountnessing",Noelle Hones,Conservative,22132015,"Ingatestone, Fyerning & Mountnessing",Janette Gulleford,UKIP,5982015,"Ingatestone, Fyerning & Mountnessing",Jane Winter,Labour,5012015,"Ingatestone, Fyerning & Mountnessing",Colin Brown,LibDem,3682015,Pilgrims Hatch,Victoria Davis,LibDem,13802015,Pilgrims Hatch,Gordon Cowley,Conservative,8772015,Pilgrims Hatch,Bryan Finegan,UKIP,5702015,Pilgrims Hatch,Richard Margrave,Labour,2742015,Shenfield,Louise Rowlands,Conservative,19652015,Shenfield,Sharon Ward,LibDem,9342015,Shenfield,Dick Camp,UKIP,2852015,Shenfield,Richard Millwood,Labour,2232015,Tipps Cross,Madeline Henwood,Conservative,13522015,Tipps Cross,Yvonne Macguire,UKIP,4732015,Tipps Cross,Keith Pratt,Independent,3062015,Tipps Cross,Michele Wigram,Labour,2162015,Warley,Paul Barrell,Conservative,14962015,Warley,Nigel Clarke,LibDem,9502015,Warley,Mary Deacon,UKIP,4642015,Warley,Susan Kortlandt,Labour,417
