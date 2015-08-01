@@ -24,7 +24,7 @@ side by the M25 ring road.
 
 ## The application.
 
-I have compiled a set of data for the local election results held in 2010, 2011, 2012 and 2014 (the County Council elections were held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
+I have compiled a set of data for the local election results held in 2010, 2011, 2012, 2014, and 2015 (the County Council elections were held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
 easily loaded. The data shows each ward, the year of the election, the candidates, party and total votes cast.
 
 
@@ -48,7 +48,7 @@ head(electiondata)
 ## Where to find the source code and data.
 
 1.  The application is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
-2.  The github repository is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
+2.  The github repository is hosted at https://github.com/thomasbridge74/BrentwoodElections/
 
 ## Summarizing the data
 
