@@ -3,13 +3,14 @@ library(shiny)
 electiondata <- read.csv("Brentwood Elections.csv", header=TRUE)
 years <- sort(unique(electiondata$Year))
 parties <- as.character(sort(unique(electiondata$Party)))
+latestyear <- max(electiondata$Year)
 
 shinyUI(pageWithSidebar(
   
   headerPanel("Brentwood Elections"),
   sidebarPanel(
     h3('Select Party/Year'),
-    selectInput("year", "Select Year", choices=years),
+    selectInput("year", "Select Year", choices=years, selected=latestyear),
     checkboxGroupInput("party", "Parties", choices=parties, selected=parties)
     ),
   mainPanel(
