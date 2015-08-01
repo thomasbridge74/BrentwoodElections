@@ -33,7 +33,7 @@
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
     <h1>Brentwood Elections</h1>
-    <h2></h2>
+    <h2>A Coursera Project</h2>
     <p>Thomas Bridge<br/>Politics and Data Nerd</p>
   </hgroup>
   <article></article>  
@@ -47,10 +47,13 @@
   </hgroup>
   <article data-timings="">
     <ol>
-<li>This should be boring</li>
-<li>Unless you like data.   And local politics.</li>
-<li>Running out of points.</li>
+<li>The borough of Brentwood is in Essex, England.   It sits just outside London, and is mostly bordered on the West
+side by the M25 ring road.</li>
+<li>Elections for the Borough Council are held three out of every four years (the fourth year is for Essex County Council)</li>
+<li>This Coursera project uses the election data to produce graphs of the election results.</li>
 </ol>
+
+<p><img src='brentwood_800.jpg' height='300' /></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -58,20 +61,52 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>The application.</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>I have compiled a set of data for the local election results held in 2010, 2011, 2012, 2014, and 2015 (the County Council elections were held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
+easily loaded. The data shows each ward, the year of the election, the candidates, party and total votes cast.</p>
+
+<pre><code class="r">electiondata &lt;- read.csv(&quot;BrentwoodElections.csv&quot;, header=TRUE)
+head(electiondata)
+</code></pre>
+
+<pre><code>##   Year            Ward               Name        Party Vote
+## 1 2012 Brentwood North        Ross Carter       LibDem  810
+## 2 2012 Brentwood North      Paul Faragher Conservative  439
+## 3 2012 Brentwood North  Kenneth Gulleford         UKIP  104
+## 4 2012 Brentwood North   Richard Millwood       Labour  170
+## 5 2012 Brentwood South       David Bishop Conservative  594
+## 6 2012 Brentwood South Juliette Morrissey       Labour  689
+</code></pre>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>Slide 3</h2>
+    <h2>Where to find the source code and data.</h2>
   </hgroup>
   <article data-timings="">
-    <p>You can do it using the party</p>
+    <ol>
+<li> The application is hosted at <a href="https://thomasbridge.shinyapps.io/BrentwoodElections/">https://thomasbridge.shinyapps.io/BrentwoodElections/</a></li>
+<li> The github repository is hosted at <a href="https://github.com/thomasbridge74/BrentwoodElections/">https://github.com/thomasbridge74/BrentwoodElections/</a></li>
+</ol>
+
+<h2>Summarizing the data</h2>
+
+<p>The application offers two main features.</p>
+
+<ol>
+<li>The presentation of the results for a selected year.</li>
+<li>A graph showing the trends for each party over the years contained within the data set.</li>
+</ol>
+
+<p>The code makes no assumptions about the contents of the data - meaning adding results for different years, wards and 
+parties is trivial.</p>
+
+<p>There are two functions that are used in the application, yearly_summary() and create_plot().  </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -79,22 +114,31 @@
 
 <slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h2>Slide 4</h2>
+    <h2>Features.</h2>
   </hgroup>
   <article data-timings="">
-    <p>Or by year.</p>
+    <pre><code class="r">parties &lt;- c(&quot;Conservative&quot;, &quot;LibDem&quot;, &quot;UKIP&quot;, &quot;Labour&quot;)
+</code></pre>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
+<div style='float:left;width:48%;' class='centered'>
+  <pre><code class="r">yearly_summary(&quot;2012&quot;, parties)
+</code></pre>
 
-<slide class="" id="slide-5" style="background:;">
-  <hgroup>
-    <h2>Maybe more</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>If I have time.</p>
+<pre><code>##           Party Year votes   percent
+## 4  Conservative 2012  8127 46.701529
+## 21       LibDem 2012  4869 27.979543
+## 17       Labour 2012  2558 14.699460
+## 26         UKIP 2012  1050  6.033789
+</code></pre>
 
+</div>
+<div style='float:right;width:48%;'>
+  <pre><code class="r">create_plot(parties)
+</code></pre>
+
+<p><img src="assets/fig/plotdemo-1.png" alt="plot of chunk plotdemo"> </p>
+
+</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -111,26 +155,20 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='The application.'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 3'>
+        data-slide=3 title='Where to find the source code and data.'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 4'>
+        data-slide=4 title='Features.'>
          4
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Maybe more'>
-         5
       </a>
     </li>
   </ul>

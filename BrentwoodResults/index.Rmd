@@ -1,6 +1,6 @@
 ---
 title       : Brentwood Elections 
-subtitle    : 
+subtitle    : A Coursera Project
 author      : Thomas Bridge
 job         : Politics and Data Nerd
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -13,30 +13,86 @@ knit        : slidify::knit2slides
 
 ## Brentwood Elections
 
-1. This should be boring
-2. Unless you like data.   And local politics.
-3. Running out of points.
+1. The borough of Brentwood is in Essex, England.   It sits just outside London, and is mostly bordered on the West
+side by the M25 ring road.
+2. Elections for the Borough Council are held three out of every four years (the fourth year is for Essex County Council)
+3. This Coursera project uses the election data to produce graphs of the election results.
+
+<img src='brentwood_800.jpg' height='300' />
 
 --- .class #id 
 
-## Slide 2
+## The application.
+
+I have compiled a set of data for the local election results held in 2010, 2011, 2012, 2014, and 2015 (the County Council elections were held in 2013).   This is used as the basis of the presentation.  The data is in CSV format and is
+easily loaded. The data shows each ward, the year of the election, the candidates, party and total votes cast.
+
+```{r loaddata}
+electiondata <- read.csv("BrentwoodElections.csv", header=TRUE)
+head(electiondata)
+```
 
 ---
 
-## Slide 3
+## Where to find the source code and data.
 
-You can do it using the party
+1.  The application is hosted at https://thomasbridge.shinyapps.io/BrentwoodElections/
+2.  The github repository is hosted at https://github.com/thomasbridge74/BrentwoodElections/
 
----
-## Slide 4
+## Summarizing the data
 
-Or by year.
+The application offers two main features.
 
----
+1. The presentation of the results for a selected year.
+2. A graph showing the trends for each party over the years contained within the data set.
 
-## Maybe more
+The code makes no assumptions about the contents of the data - meaning adding results for different years, wards and 
+parties is trivial.
 
-If I have time.
+There are two functions that are used in the application, yearly_summary() and create_plot().  
+
+```{r functions, echo=FALSE}
+library(plyr)
+library(ggplot2)
+yearly_vote <- ddply(electiondata[,c("Year", "Party", "Vote")], ~Party + Year, summarize, votes=sum(Vote))
+yearly_vote$percent = 100*unsplit(lapply(split(yearly_vote, yearly_vote$Year), function(x) { 
+   x$votes/sum(x$votes)}), yearly_vote$Year)
+yearly_vote <- yearly_vote[with(yearly_vote, order(Year, -percent)), ]
+
+yearly_summary <- function(year, party) {
+  year_vote <- yearly_vote[yearly_vote$Year == year, ]
+  year_vote[year_vote$Party %in% party, ]
+}
+
+create_plot <- function(party) {
+  p <- qplot(Year, percent, data=yearly_vote[yearly_vote$Party %in% party, ], group=Party, colour=Party, 
+             main="Trend by party", ylab = "Percentage of total vote") + geom_line()
+  print(p)
+}
+```
+
+
+--- &twocol
+
+## Features.
+
+```{r parties}
+parties <- c("Conservative", "LibDem", "UKIP", "Labour")
+```
+
+*** {name: left}
+
+```{r tabledemo}
+yearly_summary("2012", parties)
+```
+
+
+*** {name: right}
+
+```{r plotdemo, fig.height=5}
+create_plot(parties)
+```
+
 
 
 
